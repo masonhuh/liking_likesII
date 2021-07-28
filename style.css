@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+#page-content {
+    display: flex;
+    align-content: flex-start;
+}
+
+nav {
+    width: 838px;
+    background-color: black;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid black;
+    margin: 0px 160px;
+}
+
+.network {
+    display: inline-flex;
+    font-size: 40px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+.your-feed {
+    font-size: 35px;
+    text-align: center;
+    width: 838px;
+    display: flex;
+    margin: 10px 520px;
+}
+
+.your-profile {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    width: 170px;
+    height: 270px;
+    margin: 20px 30px auto auto;
+    margin-left: 160px;
+}
+
+.propic {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.add-avatar {
+    margin: auto;
+}
+
+.user-name {
+    margin: auto auto;
+    font-size: 30px;
+    padding-bottom: 25px;
+
+}
+
+.box {
+    border: 5px solid black;
+    width: 635px;
+    height: 145px;
+    margin: 20px auto;
+}
+
+.top {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -22px;
+}
+
+.header {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.likeCounter {
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+.likeCounter2 {
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+.likeCounter3 {
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+.btn1 {
+        margin: 25px 0px;
+        background-color: gold;
+        width: 90px;
+        height: 45px;
+        border: 2px solid black;
+        box-shadow: 3px 3px 1px 1px black;
+    }
+
+.btn2 {
+    margin: 25px 10px 25px 0px;
+    background-color: gold;
+    width: 90px;
+    height: 45px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px 1px black;
+}
+
+.btn3 {
+    margin: 25px 0px;
+    background-color: gold;
+    width: 90px;
+    height: 45px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px 1px black;
+}
+
+.filler {
+    margin-left: 40px;
+}
